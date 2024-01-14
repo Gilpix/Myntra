@@ -1,4 +1,4 @@
-const HomeItems = ({ item }) => {
+const HomeItem = ({ item }) => {
   return (
     <>
       <div className="item-container">
@@ -26,4 +26,4 @@ const HomeItems = ({ item }) => {
   );
 };
 
-export default HomeItems;
+export default HomeItem;

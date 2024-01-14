@@ -254,15 +254,17 @@ a.action_container:link {
 }
 
 .bag-page {
-  width: 75%;
+  /* width: 75%; */
   margin-left: 12.5%;
+  margin-bottom: 15px;
 }
 
 .bag-summary {
   vertical-align: top;
   display: inline-block;
-  width: 35%;
-  padding: 24px 0 0 16px;
+  /* width: 35%; */
+  min-width: 300px;
+  /* padding: 24px 0 0 16px; */
   color: #282c3f;
   font-size: 13px;
   line-height: 1.42857143;
@@ -275,10 +277,14 @@ a.action_container:link {
 .price-header {
   font-size: 12px;
   font-weight: 700;
-  margin: 24px 0 16px;
+  /* margin: 24px 16px; */
   color: #535766;
+  text-align: start;
+  padding-left: 15px;
 }
-
+.summary-item-tag {
+  padding-left: 15px !important;
+}
 .price-item {
   margin-bottom: 12px;
   line-height: 16px;
